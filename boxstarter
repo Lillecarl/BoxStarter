@@ -17,3 +17,4 @@ cinst googlechrome
 cinst chocolateygui
 cinst pswindowsupdate
 cinst NetFx3 -source windowsFeatures
+Install-WindowsUpdate
