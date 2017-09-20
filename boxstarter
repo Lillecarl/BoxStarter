@@ -1,0 +1,19 @@
+Set-WindowsExplorerOptions -EnableShowFileExtensions
+cinst dotnet3.5
+cinst dotnet4.0
+cinst dotnet4.5
+cinst dotnet4.5.2
+cinst dotnet4.6.2
+cinst dotnet4.7
+cinst vcredist-all
+cinst silverlight
+cinst flashplayerplugin
+cinst adobeair
+cinst adobereader
+cinst javaruntime
+cinst 7zip
+cinst vlc
+cinst googlechrome
+cinst chocolateygui
+cinst pswindowsupdate
+cinst NetFx3 -source windowsFeatures
