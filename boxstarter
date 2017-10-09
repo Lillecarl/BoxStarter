@@ -24,4 +24,4 @@ Disable-InternetExplorerESC
 Disable-GameBarTips
 Enable-RemoteDesktop
 Enable-MicrosoftUpdate
-Install-WindowsUpdate -getUpdatesFromMS -acceptEula
+Install-WindowsUpdate
