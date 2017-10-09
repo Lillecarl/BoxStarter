@@ -15,4 +15,4 @@ cinst vlc
 cinst googlechrome
 cinst chocolateygui
 cinst pswindowsupdate
-Install-WindowsUpdate
+Install-WindowsUpdate -getUpdatesFromMS -acceptEula
