@@ -1,11 +1,3 @@
-Set-WindowsExplorerOptions -EnableShowFileExtensions
-Disable-BingSearch
-Disable-InternetExplorerESC
-Disable-GameBarTips
-Enable-RemoteDesktop
-Enable-MicrosoftUpdate
-Install-WindowsUpdate -getUpdatesFromMS -acceptEula
-
 cinst dotnet3.5
 cinst dotnet4.0
 cinst dotnet4.5
@@ -21,3 +13,15 @@ cinst 7zip
 cinst vlc
 cinst googlechrome
 cinst chocolateygui
+cinst pswindowsupdate
+
+Import-Module PSWindowsUpdate
+Get-WUInstall -AutoReboot -AcceptAll -AutoSelectOnly -IgnoreUserInput
+
+Set-WindowsExplorerOptions -EnableShowFileExtensions
+Disable-BingSearch
+Disable-InternetExplorerESC
+Disable-GameBarTips
+Enable-RemoteDesktop
+Enable-MicrosoftUpdate
+Install-WindowsUpdate -getUpdatesFromMS -acceptEula
