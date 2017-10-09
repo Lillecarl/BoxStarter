@@ -4,7 +4,6 @@ cinst dotnet4.0
 cinst dotnet4.5
 cinst dotnet4.5.2
 cinst dotnet4.6.2
-cinst dotnet4.7
 cinst vcredist-all
 cinst silverlight
 cinst flashplayerplugin
